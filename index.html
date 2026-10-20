@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krisna | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#beranda" class="logo">Krisna</a>
+  <button id="burger" aria-label="Buka menu">&#9776;</button>
+  <ul id="menu">
+    <li><a href="#beranda">Beranda</a></li>
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#keahlian">Keahlian</a></li>
+    <li><a href="#proyek">Proyek</a></li>
+    <li><a href="#sertifikat">Sertifikat</a></li>
+    <li><a href="#kontak">Kontak</a></li>
+  </ul>
+</nav>
+
+<!-- ============ BERANDA ============ -->
+<section id="beranda">
+  <div class="hero-text">
+    <h1>Krisna Raka Pratama</h1>
+    <div class="role">Dan aku sebagai Pelajar,Programer,serta Editor </div>
+    <p>Saya adalah seorang siswa yang saat ini menempuh pendidikan di SMK Krian 1 Sidoarjo. Saya memiliki minat yang kuat di bidang teknologi dan selalu antusias untuk mempelajari hal-hal baru. Selain itu, saya juga aktif berpartisipasi dalam berbagai kegiatan ekstrakurikuler di sekolah, termasuk Klub Robotika dan AI.</p>
+    
+    <a class="btn" href="cv.pdf" download>Lihat CV</a>
+    <div class="socials">
+      <a href="https://www.facebook.com/share/1BhAYSaR8R/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5v4h3v7h4v-7h3l1-4h-4V7.5c0-.3.2-.5.5-.5H15z"/></svg></a>
+      <a href="https://www.instagram.com/oceload_?stkn=dDV2bTF4dmxhMTZn" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></a>
+      <a href="https://tiktok.com/@oceload_" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3c.3 2.7 2 4.5 5 4.8"/></svg></a>
+      <a href="https://www.youtube.com/@oceload" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="m10 9.5 5 2.5-5 2.5z"/></svg></a>
+    </div>
+  </div>
+  <div class="photo">
+    <div class="frame">
+      <img src="Images/Foto.png" alt="Foto Krisna" onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+
+<!-- ============ TENTANG ============ -->
+<section id="tentang">
+  <h2>Tentang</h2>
+  <p class="sub">Kenalan lebih dekat.</p>
+  <div class="about-grid">
+    <div class="card">
+      <h3>Siapa saya</h3>
+      <p>Saya senang mempelajari hal-hal baru yang berkaitan dengan pemrograman, dan saya belajar melalui berbagai sumber seperti Petani Kode serta Kelas Terbuka di YouTube. Saya juga memiliki ketertarikan untuk menjadi seorang YouTuber karena saya gemar membuat konten dan ingin mendalaminya lebih jauh. Saya memiliki kanal YouTube bernama Oceload.</p>
+    </div>
+    <div class="card">
+      <h3>Data diri</h3>
+      <ul class="info">
+        <li><span>Nama</span><span>Krisna Raka Pratama</span></li>
+        <li><span>Tempat, tanggal lahir</span><span>Badung, 28 Desember 2010</span></li>
+        <li><span>Sekolah</span><span>SMK Krian 1 Sidoarjo</span></li>
+        <li><span>Jurusan</span><span>Jurusan</span></li>
+        <li><span>Domisili</span><span>Sidoarjo</span></li>
+        <li><span>Hobi</span><span>Volleyball dan Game</span></li>
+        <li><span>Email</span><span>krisnaraka2010@gmail.com</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KEAHLIAN ============ -->
+<section id="keahlian">
+  <h2>Keahlian</h2>
+  <p class="sub">Kemampuan yang sedang dan sudah saya pelajari.</p>
+  <div class="skill-grid">
+    <div class="card">
+      <h3>Edit Skill</h3>
+      <div id="edit-skills"></div>
+    </div>
+    <div class="card">
+      <h3>Coding Skill</h3>
+      <div id="code-skills"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROYEK ============ -->
+<section id="proyek">
+  <h2>Proyek</h2>
+  <p class="sub">Proyek yang saya kerjakan dan saya buat sendiri</p>
+  <div class="grid" id="proyek-grid"></div>
+</section>
+
+<!-- ============ SERTIFIKAT ============ -->
+<section id="sertifikat">
+  <h2>Sertifikat</h2>
+  <p class="sub">Sertifikat yang saya dapatkan selama ini</p>
+  <div class="grid" id="sertifikat-grid"></div>
+</section>
+
+<!-- ============ KONTAK ============ -->
+<section id="kontak">
+  <h2>Kontak</h2>
+  <p class="sub">Ada pertanyaan, tawaran kerja sama, atau sekadar ingin menyapa? Tulis pesanmu di sini.</p>
+  <form id="form">
+    <label>Nama pengirim<input type="text" name="nama" required placeholder="Nama kamu"></label>
+    <label>Email<input type="email" name="email" required placeholder="email@kamu.com"></label>
+    <label>Subjek<input type="text" name="subjek" placeholder="Judul pesan"></label>
+    <label>Pesan<textarea name="pesan" required placeholder="Tulis pesan kamu"></textarea></label>
+    <button class="btn" type="submit" style="margin:0;justify-self:start">Kirim pesan</button>
+    <div id="status" role="status"></div>
+  </form>
+</section>
+
+<footer>Web ini dibuat oleh <b>Krisna</b></footer>
+
+<!-- Modal "Baca selengkapnya" -->
+<div id="modal" role="dialog" aria-modal="true">
+  <div class="modal-box">
+    <button id="close" aria-label="Tutup">&times;</button>
+    <div class="thumb" id="m-thumb"></div>
+    <h3 id="m-title"></h3>
+    <p id="m-desc"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
